@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\sjors\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\sjors\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Hinos Saga - Fantasy RPG.708370004.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\Hinos_Saga-Fantasy_RPG\Hinos_Saga-Fantasy_RPG\Hinos Saga - Fantasy RPG" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="InputSystem" t="Include">
+          <e p="IAxisInput.cs" t="Include" />
+          <e p="IButtonINput.cs" t="Include" />
+          <e p="InputHandlers" t="Include">
+            <e p="IInputHandler.cs" t="Include" />
+            <e p="NullInputHandler.cs" t="Include" />
+            <e p="SystemInputHandler.cs" t="Include" />
+          </e>
+          <e p="InputManager.cs" t="Include" />
+          <e p="InputProvider.cs" t="Include" />
+          <e p="PlayerControls.cs" t="Include" />
+          <e p="View" t="Include">
+            <e p="IInputView.cs" t="Include" />
+            <e p="InputDebugScreenView.cs" t="Include" />
+            <e p="InputPresenter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Character" t="Include">
+            <e p="CharacterController.cs" t="Include" />
+          </e>
+          <e p="Util" t="Include">
+            <e p="DirtyProperty.cs" t="Include" />
+            <e p="Entity.cs" t="Include" />
+            <e p="IPresenter.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+            <e p="Timers" t="Include">
+              <e p="ITimerCallbacks.cs" t="Include" />
+              <e p="Timer.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Hinos Saga - Fantasy RPG.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
