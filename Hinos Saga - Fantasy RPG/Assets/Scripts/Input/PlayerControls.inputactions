@@ -7,10 +7,10 @@
             "actions": [
                 {
                     "name": "Move",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "92e5d63d-9ac4-41d1-a90f-6aa94a1dd4c5",
-                    "expectedControlType": "",
-                    "processors": "NormalizeVector2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
                     "interactions": ""
                 },
                 {
@@ -19,7 +19,15 @@
                     "id": "c7f8ed76-f5ba-4d33-b7c0-123503382c73",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "Tap"
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "536e2d33-89f5-4c56-9c14-ad9fa9a92c6a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press"
                 }
             ],
             "bindings": [
@@ -86,6 +94,44 @@
                     "processors": "",
                     "groups": "",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "02662572-af0b-48e5-8619-3b6cfaa216db",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Camera",
+            "id": "cf32f62a-225a-4e56-80eb-407e6c3551e9",
+            "actions": [
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "1b0109c6-4220-427e-a2bb-b487d7bfca47",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bba88603-430f-4c34-8181-b613cd5b01e1",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

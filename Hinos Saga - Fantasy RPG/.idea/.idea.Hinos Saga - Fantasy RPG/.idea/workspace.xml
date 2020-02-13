@@ -2,29 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a280293-845b-419a-a98a-69fcb50a4bec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/IAxisInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/IAxisInput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/IButtonINput.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/IButtonInput.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers/IInputHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers/IInputHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers/NullInputHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers/NullInputHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/InputManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/InputManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/View.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/View/IInputView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/View/IInputView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/View/InputDebugScreenView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/View/InputDebugScreenView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/View/InputPresenter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InputSystem/View/InputPresenter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/Entity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/Entity.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/IPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/Input.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraDebugScreenView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraDebugScreenView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraInputPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraInputPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/Input/ICameraInputView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/Input/ICameraInputView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Input.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Input/IInputView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Input/InputDebugScreenView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Input.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/BasePresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/BasePresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/IButtonInput.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/PullResetValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Util/PullResetValue.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hinos Saga - Fantasy RPG/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hinos Saga - Fantasy RPG/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hinos Saga - Fantasy RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hinos Saga - Fantasy RPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/IAxisInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Util/IAxisInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/IAxisInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Util/IAxisInput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/IButtonINput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/IButtonInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Util/IButtonInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers/IInputHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers/IInputHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers/NullInputHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers/NullInputHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers/SystemInputHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/InputHandlers/SystemInputHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/InputManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/InputManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/InputProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/InputProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/PlayerControls.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/PlayerControls.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/PlayerControls.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/PlayerControls.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/View.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/View/IInputView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/View/IInputView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Input/IInputView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/View/InputDebugScreenView.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/View/InputDebugScreenView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Input/InputDebugScreenView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/View/InputPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Input/InputPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem/View/InputPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/Input/InputPresenter.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Util/IPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Util/IPresenter.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,138 +59,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputHandlers/SystemInputHandler.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-              <folding>
-                <marker date="1581257768319" expanded="false" signature="6:49" ph="..." />
-                <marker date="1581257768319" expanded="true" signature="87:1410" ph="{...}" />
-                <marker date="1581257768319" expanded="true" signature="175:1408" ph="{...}" />
-                <marker date="1581257768319" expanded="true" signature="311:397" ph="{...}" />
-                <marker date="1581257768319" expanded="true" signature="608:713" ph="{...}" />
-                <marker date="1581257768319" expanded="true" signature="1113:1274" ph="{...}" />
-                <marker date="1581257768319" expanded="true" signature="1340:1402" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/InputSystem/View/InputPresenter.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-              <folding>
-                <marker date="1581257768400" expanded="true" signature="6:97" ph="..." />
-                <marker date="1581257768400" expanded="true" signature="126:976" ph="{...}" />
-                <marker date="1581257768400" expanded="true" signature="214:974" ph="{...}" />
-                <marker date="1581257768400" expanded="true" signature="383:562" ph="{...}" />
-                <marker date="1581257768400" expanded="true" signature="423:552" ph="{...}" />
-                <marker date="1581257768400" expanded="true" signature="624:968" ph="{...}" />
-                <marker date="1581257768400" expanded="true" signature="672:958" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/InputSystem/View/InputDebugScreenView.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <marker date="1581254553441" expanded="true" signature="6:40" ph="..." />
-                <marker date="1581254553441" expanded="true" signature="69:349" ph="{...}" />
-                <marker date="1581254553441" expanded="true" signature="137:347" ph="{...}" />
-                <marker date="1581254553441" expanded="true" signature="256:341" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Util/IPresenter.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-              <folding>
-                <marker date="1581254775887" expanded="true" signature="15:105" ph="{...}" />
-                <marker date="1581254775887" expanded="true" signature="58:103" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/InputSystem/View/IInputView.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding>
-                <marker date="1581254497405" expanded="true" signature="47:142" ph="{...}" />
-                <marker date="1581254497405" expanded="true" signature="81:140" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputProvider.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <marker date="1581258048227" expanded="true" signature="6:75" ph="..." />
-                <marker date="1581258048227" expanded="true" signature="99:531" ph="{...}" />
-                <marker date="1581258048227" expanded="true" signature="148:529" ph="{...}" />
-                <marker date="1581258048227" expanded="true" signature="308:429" ph="{...}" />
-                <marker date="1581258048227" expanded="true" signature="465:523" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
-              <folding>
-                <marker date="1581257767988" expanded="true" signature="6:44" ph="..." />
-                <marker date="1581257767988" expanded="true" signature="68:507" ph="{...}" />
-                <marker date="1581257767988" expanded="true" signature="126:505" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <marker date="1581256176676" expanded="true" signature="25:49" ph="..." />
-                <marker date="1581256176676" expanded="true" signature="71:465" ph="{...}" />
-                <marker date="1581256176676" expanded="true" signature="119:463" ph="{...}" />
-                <marker date="1581256176676" expanded="true" signature="222:457" ph="{...}" />
-                <marker date="1581256176676" expanded="true" signature="297:447" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Util/Entity.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <marker date="1581247965723" expanded="true" signature="35:564" ph="{...}" />
-                <marker date="1581247965723" expanded="true" signature="86:562" ph="{...}" />
-                <marker date="1581247965723" expanded="true" signature="288:501" ph="{...}" />
+                <marker date="1581612057749" expanded="false" signature="6:49" ph="..." />
+                <marker date="1581612057749" expanded="true" signature="71:461" ph="{...}" />
+                <marker date="1581612057749" expanded="true" signature="166:459" ph="{...}" />
+                <marker date="1581612057749" expanded="true" signature="253:453" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -177,23 +80,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/InputSystem/IAxisInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/DirtyProperty.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InputSystem/InputProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InputSystem/IButtonInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InputSystem/InputHandlers/SystemInputHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraInputPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraDebugScreenView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/Timers/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/Timers/ITimerCallbacks.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/IPresenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InputSystem/View/IInputView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InputSystem/InputHandlers/IInputHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InputSystem/View/InputPresenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InputSystem/InputHandlers/NullInputHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InputSystem/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/Input/ICameraInputView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/PullResetValue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InputSystem/View/InputDebugScreenView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/IAxisInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/DirtyProperty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/IButtonInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Input/CharacterInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/IPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Input/IInputView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Input/InputPresenter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Input/InputDebugScreenView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Util/BasePresenter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -214,14 +120,27 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Util/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Util/Entity.cs" />
         <option value="$PROJECT_DIR$/Assets/InputSystem/View/PlayerInputDebugPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/InputSystem/View/IInputView.cs" />
-        <option value="$PROJECT_DIR$/Assets/InputSystem/View/InputDebugScreenView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Util/IPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs" />
-        <option value="$PROJECT_DIR$/Assets/InputSystem/View/InputPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/InputSystem/InputManager.cs" />
         <option value="$PROJECT_DIR$/Assets/InputSystem/InputHandlers/SystemInputHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Util/PullResetValue.cs" />
         <option value="$PROJECT_DIR$/Assets/InputSystem/InputProvider.cs" />
+        <option value="$PROJECT_DIR$/Assets/InputSystem/View/IInputView.cs" />
+        <option value="$PROJECT_DIR$/Assets/InputSystem/View/InputDebugScreenView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Util/IButtonInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Util/IAxisInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/InputSystem/View/InputPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Input/InputPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/Input/ICameraInputView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Util/IPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Input/InputDebugScreenView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraDebugScreenView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Util/BasePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraInputPresenter.cs" />
       </list>
     </option>
   </component>
@@ -231,8 +150,8 @@
     </ignored-facets>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
-    <option name="width" value="960" />
+    <option name="x" value="991" />
+    <option name="width" value="929" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -241,29 +160,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="InputSystem" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="InputSystem" type="1045f7f1:UnityExplorerNode" />
-              <item name="InputHandlers" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="InputSystem" type="1045f7f1:UnityExplorerNode" />
-              <item name="View" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -291,11 +198,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,12 +244,13 @@
       <option name="presentableId" value="Default" />
       <updated>1581082446688</updated>
       <workItem from="1581082454739" duration="2517000" />
-      <workItem from="1581245460638" duration="8040000" />
+      <workItem from="1581245460638" duration="8770000" />
+      <workItem from="1581594991749" duration="10954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10557000" />
+    <option name="totallyTimeSpent" value="22241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,10 +262,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="960" height="1080" extended-state="0" />
+    <frame x="991" y="0" width="929" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26333332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32336017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -412,39 +315,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/IAxisInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding>
-            <marker date="1581082881272" expanded="true" signature="22:90" ph="{...}" />
-            <marker date="1581082881272" expanded="true" signature="56:88" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/IButtonInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding>
-            <marker date="1581082881320" expanded="true" signature="22:151" ph="{...}" />
-            <marker date="1581082881320" expanded="true" signature="58:149" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputHandlers/IInputHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <marker date="1581246392180" expanded="true" signature="36:292" ph="{...}" />
-            <marker date="1581246392180" expanded="true" signature="73:290" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Util/Timers/ITimerCallbacks.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -495,13 +365,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputHandlers/NullInputHandler.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Util/DirtyProperty.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
           <folding>
-            <marker date="1581246560204" expanded="true" signature="37:387" ph="{...}" />
-            <marker date="1581246560204" expanded="true" signature="89:385" ph="{...}" />
+            <marker date="1581247093272" expanded="true" signature="15:462" ph="{...}" />
+            <marker date="1581247093272" expanded="true" signature="60:460" ph="{...}" />
+            <marker date="1581247093272" expanded="true" signature="149:361" ph="{...}" />
+            <marker date="1581247093272" expanded="true" signature="167:351" ph="{...}" />
+            <marker date="1581247093272" expanded="true" signature="198:306" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -518,27 +391,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/View/IInputView.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Util/PullResetValue.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <marker date="1581254497405" expanded="true" signature="47:142" ph="{...}" />
-            <marker date="1581254497405" expanded="true" signature="81:140" ph="{...}" />
+            <marker date="1581609560211" expanded="true" signature="15:494" ph="{...}" />
+            <marker date="1581609560211" expanded="true" signature="52:492" ph="{...}" />
+            <marker date="1581609560211" expanded="true" signature="238:443" ph="{...}" />
+            <marker date="1581609560211" expanded="true" signature="256:391" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Util/DirtyProperty.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Input/IInputView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1581610489891" expanded="true" signature="47:219" ph="{...}" />
+            <marker date="1581610489891" expanded="true" signature="81:217" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Util/IButtonInput.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
           <folding>
-            <marker date="1581247093272" expanded="true" signature="15:462" ph="{...}" />
-            <marker date="1581247093272" expanded="true" signature="60:460" ph="{...}" />
-            <marker date="1581247093272" expanded="true" signature="149:361" ph="{...}" />
-            <marker date="1581247093272" expanded="true" signature="167:351" ph="{...}" />
-            <marker date="1581247093272" expanded="true" signature="198:306" ph="{...}" />
+            <marker date="1581610756938" expanded="true" signature="15:144" ph="{...}" />
+            <marker date="1581610756938" expanded="true" signature="51:142" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Util/IAxisInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <marker date="1581610760318" expanded="true" signature="15:83" ph="{...}" />
+            <marker date="1581610760318" expanded="true" signature="49:81" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputHandlers/IInputHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputHandlers/NullInputHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputHandlers/SystemInputHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Camera/Input/ICameraInputView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <marker date="1581615059864" expanded="true" signature="43:140" ph="{...}" />
+            <marker date="1581615059864" expanded="true" signature="83:138" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -548,93 +488,128 @@
         <state relative-caret-position="60">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding>
-            <marker date="1581254775887" expanded="true" signature="15:105" ph="{...}" />
-            <marker date="1581254775887" expanded="true" signature="58:103" ph="{...}" />
+            <marker date="1581615313793" expanded="true" signature="15:96" ph="{...}" />
+            <marker date="1581615313793" expanded="true" signature="48:94" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <marker date="1581612745226" expanded="true" signature="6:38" ph="..." />
+            <marker date="1581612745226" expanded="true" signature="57:321" ph="{...}" />
+            <marker date="1581612745226" expanded="true" signature="109:319" ph="{...}" />
+            <marker date="1581612745226" expanded="true" signature="178:313" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Input/CharacterInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+          <folding>
+            <marker date="1581612824690" expanded="true" signature="6:108" ph="..." />
+            <marker date="1581612824690" expanded="true" signature="130:1678" ph="{...}" />
+            <marker date="1581612824690" expanded="true" signature="214:1676" ph="{...}" />
+            <marker date="1581612824690" expanded="true" signature="786:943" ph="{...}" />
+            <marker date="1581612824690" expanded="true" signature="1198:1337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <marker date="1581615662883" expanded="false" signature="6:49" ph="..." />
+            <marker date="1581615662883" expanded="true" signature="74:1001" ph="{...}" />
+            <marker date="1581615662883" expanded="true" signature="152:999" ph="{...}" />
+            <marker date="1581615662883" expanded="true" signature="432:599" ph="{...}" />
+            <marker date="1581615662883" expanded="true" signature="854:993" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Input/InputDebugScreenView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1581615747942" expanded="false" signature="30:64" ph="..." />
+            <marker date="1581615747942" expanded="true" signature="92:643" ph="{...}" />
+            <marker date="1581615747942" expanded="true" signature="160:641" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraDebugScreenView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1581615761214" expanded="true" signature="6:40" ph="..." />
+            <marker date="1581615761214" expanded="true" signature="65:327" ph="{...}" />
+            <marker date="1581615761214" expanded="true" signature="140:325" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Util/BasePresenter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+          <folding>
+            <marker date="1581615774542" expanded="true" signature="6:76" ph="..." />
+            <marker date="1581615774542" expanded="true" signature="93:542" ph="{...}" />
+            <marker date="1581615774542" expanded="true" signature="151:540" ph="{...}" />
+            <marker date="1581615774542" expanded="true" signature="310:479" ph="{...}" />
+            <marker date="1581615774542" expanded="true" signature="350:469" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Input/InputPresenter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <marker date="1581614903383" expanded="false" signature="6:88" ph="..." />
+            <marker date="1581614903383" expanded="true" signature="116:677" ph="{...}" />
+            <marker date="1581614903383" expanded="true" signature="204:675" ph="{...}" />
+            <marker date="1581614903383" expanded="true" signature="269:669" ph="{...}" />
+            <marker date="1581614903383" expanded="true" signature="430:659" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Camera/Input/CameraInputPresenter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <marker date="1581615856928" expanded="true" signature="6:30" ph="..." />
+            <marker date="1581615856928" expanded="true" signature="55:498" ph="{...}" />
+            <marker date="1581615856928" expanded="true" signature="155:496" ph="{...}" />
+            <marker date="1581615856928" expanded="true" signature="211:490" ph="{...}" />
+            <marker date="1581615856928" expanded="true" signature="369:480" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <marker date="1581256176676" expanded="true" signature="25:49" ph="..." />
-            <marker date="1581256176676" expanded="true" signature="71:465" ph="{...}" />
-            <marker date="1581256176676" expanded="true" signature="119:463" ph="{...}" />
-            <marker date="1581256176676" expanded="true" signature="222:457" ph="{...}" />
-            <marker date="1581256176676" expanded="true" signature="297:447" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/View/InputDebugScreenView.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <marker date="1581254553441" expanded="true" signature="6:40" ph="..." />
-            <marker date="1581254553441" expanded="true" signature="69:349" ph="{...}" />
-            <marker date="1581254553441" expanded="true" signature="137:347" ph="{...}" />
-            <marker date="1581254553441" expanded="true" signature="256:341" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/View/InputPresenter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <marker date="1581257768400" expanded="true" signature="6:97" ph="..." />
-            <marker date="1581257768400" expanded="true" signature="126:976" ph="{...}" />
-            <marker date="1581257768400" expanded="true" signature="214:974" ph="{...}" />
-            <marker date="1581257768400" expanded="true" signature="383:562" ph="{...}" />
-            <marker date="1581257768400" expanded="true" signature="423:552" ph="{...}" />
-            <marker date="1581257768400" expanded="true" signature="624:968" ph="{...}" />
-            <marker date="1581257768400" expanded="true" signature="672:958" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
-          <folding>
-            <marker date="1581257767988" expanded="true" signature="6:44" ph="..." />
-            <marker date="1581257767988" expanded="true" signature="68:507" ph="{...}" />
-            <marker date="1581257767988" expanded="true" signature="126:505" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputHandlers/SystemInputHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <marker date="1581257768319" expanded="false" signature="6:49" ph="..." />
-            <marker date="1581257768319" expanded="true" signature="87:1410" ph="{...}" />
-            <marker date="1581257768319" expanded="true" signature="175:1408" ph="{...}" />
-            <marker date="1581257768319" expanded="true" signature="311:397" ph="{...}" />
-            <marker date="1581257768319" expanded="true" signature="608:713" ph="{...}" />
-            <marker date="1581257768319" expanded="true" signature="1113:1274" ph="{...}" />
-            <marker date="1581257768319" expanded="true" signature="1340:1402" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InputSystem/InputProvider.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <marker date="1581258048227" expanded="true" signature="6:75" ph="..." />
-            <marker date="1581258048227" expanded="true" signature="99:531" ph="{...}" />
-            <marker date="1581258048227" expanded="true" signature="148:529" ph="{...}" />
-            <marker date="1581258048227" expanded="true" signature="308:429" ph="{...}" />
-            <marker date="1581258048227" expanded="true" signature="465:523" ph="{...}" />
+            <marker date="1581612057749" expanded="false" signature="6:49" ph="..." />
+            <marker date="1581612057749" expanded="true" signature="71:461" ph="{...}" />
+            <marker date="1581612057749" expanded="true" signature="166:459" ph="{...}" />
+            <marker date="1581612057749" expanded="true" signature="253:453" ph="{...}" />
           </folding>
         </state>
       </provider>

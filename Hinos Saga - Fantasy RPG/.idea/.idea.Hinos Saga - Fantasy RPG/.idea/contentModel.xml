@@ -6,31 +6,36 @@
     <e p="D:\Projects\Hinos_Saga-Fantasy_RPG\Hinos_Saga-Fantasy_RPG\Hinos Saga - Fantasy RPG" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="InputSystem" t="Include">
-          <e p="IAxisInput.cs" t="Include" />
-          <e p="IButtonINput.cs" t="Include" />
-          <e p="InputHandlers" t="Include">
-            <e p="IInputHandler.cs" t="Include" />
-            <e p="NullInputHandler.cs" t="Include" />
-            <e p="SystemInputHandler.cs" t="Include" />
-          </e>
-          <e p="InputManager.cs" t="Include" />
-          <e p="InputProvider.cs" t="Include" />
-          <e p="PlayerControls.cs" t="Include" />
-          <e p="View" t="Include">
-            <e p="IInputView.cs" t="Include" />
-            <e p="InputDebugScreenView.cs" t="Include" />
-            <e p="InputPresenter.cs" t="Include" />
-          </e>
-        </e>
         <e p="Scripts" t="Include">
+          <e p="Camera" t="Include">
+            <e p="CameraController.cs" t="Include" />
+            <e p="Input" t="Include">
+              <e p="CameraDebugScreenView.cs" t="Include" />
+              <e p="CameraInput.cs" t="Include" />
+              <e p="CameraInputPresenter.cs" t="Include" />
+              <e p="ICameraInputView.cs" t="Include" />
+            </e>
+          </e>
           <e p="Character" t="Include">
             <e p="CharacterController.cs" t="Include" />
+            <e p="Input" t="Include">
+              <e p="CharacterInput.cs" t="Include" />
+              <e p="IInputView.cs" t="Include" />
+              <e p="InputDebugScreenView.cs" t="Include" />
+              <e p="InputPresenter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Input" t="Include">
+            <e p="PlayerControls.cs" t="Include" />
           </e>
           <e p="Util" t="Include">
+            <e p="BasePresenter.cs" t="Include" />
             <e p="DirtyProperty.cs" t="Include" />
             <e p="Entity.cs" t="Include" />
+            <e p="IAxisInput.cs" t="Include" />
+            <e p="IButtonINput.cs" t="Include" />
             <e p="IPresenter.cs" t="Include" />
+            <e p="PullResetValue.cs" t="Include" />
             <e p="Singleton.cs" t="Include" />
             <e p="Timers" t="Include">
               <e p="ITimerCallbacks.cs" t="Include" />

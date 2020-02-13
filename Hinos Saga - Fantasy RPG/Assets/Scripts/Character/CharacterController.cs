@@ -3,16 +3,15 @@ using UnityEngine;
 using Util;
 
 namespace Character {
+    [RequireComponent(typeof(CharacterInput))]
     public class CharacterController : Entity {
-        [SerializeField] private InputProvider _input;
+        private CharacterInput _input;
 
         protected override void Initialize() {
             myRigidbody.freezeRotation = true;
-
-            if (!_input) {
-                _input = GetComponent<InputProvider>();
-                if(!_input) _input = gameObject.AddComponent<InputProvider>();
-            }
+            
+            _input = GetComponent<CharacterInput>();
+            if(!_input) _input = gameObject.AddComponent<CharacterInput>();
         }
     }
 }

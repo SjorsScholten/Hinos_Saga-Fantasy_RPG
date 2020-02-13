@@ -1,5 +1,5 @@
 namespace Util {
-    public interface IPresenter<in TType>{
-        void UpdateGUI(TType source);
+    public interface IPresenter{
+        void UpdateGUI(object source);
     }
 }
